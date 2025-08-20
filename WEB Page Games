@@ -1,0 +1,346 @@
+                -------------------HTML-----------------
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Games</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <audio autoplay muted loop>
+            <source src="your_audio_file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </head>
+    <body>
+        <nav class="menu">
+            <h1 id="Games">Games</h1>
+        </nav>
+        <div class="typeogames">
+            
+            <div class="1pg">
+                <ul>
+                    <fieldset>
+                        <legend><h2>One player games</h2></legend>
+                            <li class="list">Smash Karts*</li>
+                            <li class="list">Wordle</li>
+                            <li class="list">Strands</li>
+                            <li class="list">Sudoku</li>                                <li class="list">Spelling Bee</li>
+                            <li class="list">Pac-Man</li>
+                            <li class="list">Champion Island</li>
+                            <li class="list">Popcorn</li>
+                            <li class="list">Pony Express</li>
+                            <p id="asterisc">* Friends can join into the game from another device.</p>
+                    </fieldset>
+                </ul>
+            </div>
+            <div class="2pg">
+                <ul>
+                    <fieldset>
+                        <legend><h2>Two player games</h2></legend>
+                            <li class="list">2 Player Games</li>
+                            <li class="list">Fireboy and Watergirl</li>
+                    </fieldset>
+                </ul>
+                
+            </div>
+        </div>
+        
+        <div class="total">
+            <a href="https://www.google.com/search?q=2+player+games+app&rlz=1CAJNUQ_enUS1034&oq=2+player+games&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgkIARBFGDsYgAQyBggCEEUYOzIGCAMQRRhAMgcIBBAAGIAEMgcIBRAAGIAEMgwIBhAAGAoYsQMYgAQyBggHEAUYQNIBCDI5NzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on">
+                <div class="game"><p class="game-name">2 PLAYER GAMES</p>
+                </div></a>
+            <a href="https://sites.google.com/view/classroom6x/smash-karts" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">SMASH KARTS<br><span class="discription">Classroom 6x</span></p></div></a>
+            <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">WORDLE <br><span class="discription">NY Times GAMES</span></p></div></a>
+            <a href="https://www.nytimes.com/games/strands?utm_source=wordle&utm_medium=referral&utm_campaign=wordle_nav" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">STRANDS<br><span class="discription">NY Times GAMES</span></p></div></a>
+            <a href="https://www.nytimes.com/puzzles/sudoku"><div class="game" target="_blank" rel="noopener noreferrer"><p class="game-name">SUDOKU<br><span class="discription">NY Times GAMES</span></p></div></a>
+            <a href="https://www.nytimes.com/puzzles/spelling-bee"><div class="game" target="_blank" rel="noopener noreferrer"><p class="game-name">SPELLING BEE<br><span class="discription">NY Times GAMES</span></p></div></a>
+            <a href="https://www.google.com/search?q=pac+man&rlz=1CAJNUQ_enUS1034&oq=pac+man&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YgwEYsQMYgAQyCggCEC4YsQMYgAQyDQgDEC4YgwEYsQMYgAQyDQgEEAAYgwEYsQMYgAQyDQgFEC4YgwEYsQMYgAQyCggGEC4YsQMYgAQyEAgHEAAYgwEYsQMYgAQYigUyDQgIEAAYgwEYsQMYgAQyBwgJEAAYjwLSAQgyMjc1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">Pac-Man<br><span class="discription">Google</span></p></div></a>
+            <a href="https://www.google.com/search?q=champion+island&sca_esv=49dc296d3d276260&rlz=1CAJNUQ_enUS1034&ei=-7yjaJCOA8ie0PEPwbfdyAM&gs_ssp=eJzj4tVP1zc0LLQoT6-sLDcyYPTiT85IzC3IzM9TyCzOScxLAQCopArV&oq=champo&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmNoYW1wbyoCCAIyCBAuGIAEGLEDMggQLhiABBixAzIHEC4YgAQYCjILEC4YgAQYxwEYrwEyCBAAGIAEGLEDMgsQLhiABBixAxiDATILEC4YgAQYxwEYrwEyCBAAGIAEGLEDMgUQABiABDILEC4YgAQYxwEYrwEyFhAuGIAEGAoYlwUY3AQY3gQY4ATYAQJIlC1Q-AVYgBZwAXgBkAEAmAGoAaABjQaqAQMyLjS4AQHIAQD4AQGYAgigAsQcqAIKwgIQEAAYAxi0AhjqAhiPAdgBAcICEBAuGAMYtAIY6gIYjwHYAQHCAhAQABiABBixAxhDGIMBGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICDRAAGIAEGLEDGEMYigXCAgoQLhiABBhDGIoFwgIKEAAYgAQYQxiKBcICDhAuGIAEGLEDGNEDGMcBwgIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY4ATYAQLCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AECwgIREC4YgAQYsQMY0QMYgwEYxwHCAhAQLhiABBixAxhDGIMBGIoFwgINEC4YgAQYsQMYQxiKBcICCxAAGIAEGLEDGIMBwgIIEC4YgAQY1ALCAh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AECwgIXEC4YgAQYsQMYlwUY3AQY3gQY3wTYAQKYAyHxBWWLuDKxVeNJugYECAEYCroGBggCEAEYFJIHCTEuNS4xLjgtMaAH2GiyBwUwLjUuMbgH0wfCBwkyLTEuMi40LjHIB9MB&sclient=gws-wiz-serp&safe=active&ssui=on" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">Champion Island<br><span class="discription">Google</span></p></div></a>
+            <a href="https://www.google.com/search?q=google+doodles+popcorn&sca_esv=49dc296d3d276260&rlz=1CAJNUQ_enUS1034&ei=sL-jaPinPIDw0PEPrJ64qQ0&ved=0ahUKEwj4v-ndyZWPAxUAODQIHSwPLtUQ4dUDCBA&uact=5&oq=google+doodles+popcorn&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmdvb2dsZSBkb29kbGVzIHBvcGNvcm4yBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSNAQUNICWPANcAF4AZABAJgBoAGgAeEGqgEDNS4zuAEDyAEA-AEBmAIJoALYB8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQHCAggQABiABBixA8ICCxAAGIAEGLEDGIMBwgIHEAAYgAQYCsICBRAuGIAEmAMAiAYBkAYSugYGCAEQARgIkgcDNC41oAewMrIHAzMuNbgHugfCBwUzLTguMcgHaA&sclient=gws-wiz-serp&safe=active&ssui=on" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name">Popcorn<br><span class="discription">Google</span></p></div></a>
+            <a href="https://www.google.com/search?q=google+doodKjBkbGIoF2AE&safe=active&ssui=on"><div class="game" target="_blank" rel="noopener noreferrer"><p class="game-name">Pony Express<br><span class="discription">Google</span></p></div></a>
+            <a href="https://sites.google.com/view/classroom6x/fireboy-and-watergirl"><div class="game" target="_blank" rel="noopener noreferrer"><p class="game-name2">Fireboy and Watergirl<br><span class="discription">Classroom 6x</span></p></div></a>
+            <a href="https://www.google.com/search?q=google+doodles+snake&sca_esv=0091f1adde5afd41&rlz=1CAJNUQ_enUS1034&ei=OQGkaIufFe7x0PEP24HLqQM&ved=0ahUKEwjLn7WdiJaPAxXuODQIHdvAMjUQ4dUDCBA&uact=5&oq=google+doodles+snake&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGdvb2dsZSBkb29kbGVzIHNuYWtlMgsQABiABBiRAhiKBTIFEAAYgAQyBxAAGIAEGAoyCxAAGIAEGJECGIoFMgcQABiABBgKMgUQABiABDIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjkE1DzAljMEXABeAGQAQCYAb4BoAHiCqoBAzUuN7gBA8gBAPgBAZgCDaACrAzCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICFhAuGIAEGLADGEMY1AIYyAMYigXYAQHCAgoQABiABBhDGIoFwgIGEAAYFhgewgIFEC4YgATCAgsQABiABBixAxiDAZgDAIgGAZAGE7oGBggBEAEYCZIHBTMuOS4xoAf-ULIHBTIuOS4xuAeCDMIHBzItMy44LjLIB70B&sclient=gws-wiz-serp&safe=active&ssui=on" target="_blank" rel="noopener noreferrer"><div class="game"><p class="game-name2">Snake<br><span class="discription">Google</span></p></div></a>
+            <div class="game"><p class="game-name">Coming Soon!</p></div>
+                        
+        </div>
+        <div class="container">
+            <p id="in-container">Enjoy!</p>
+            <div class="pink-div"></div>
+            <div class="white-div"></div>
+
+        </div>
+        <div class="container2">
+            <div class="tran-div"><p class="image-credit">Image Credit: The Bark Blog</p></div>
+        </div>
+
+        
+        <div class="top">
+            <p class="Games"><a href="#Games">^^^</a></p>
+        </div>
+        <footer id="boot">Powered by TechSQUID © 2025 <br>
+        Find out more about us on our TechSQUID website!
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+            --------------------------CSS--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-family: roboto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #000080;
+    margin:none;
+    padding:none;
+
+}
+
+
+
+.total {
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: auto;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+}
+
+.game {
+    border: 5px solid white;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 10px 20px 30px 20px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    box-shadow: 0px 5px 0px rgba(0, 71, 143, 1);
+    
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.game:hover{
+    background-color: #14AAAA;
+    color: black !important;
+}
+
+
+.game-name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: roboto;
+    text-shadow: 2.5px 2.5px 0px rgba(128, 128, 128, 0.5);
+    text-align: center;
+    color: white;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+#smash-karts {
+    width: 200px;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#boot {
+    border-top: 2px solid white;
+    background-color: #0B7373;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    
+    padding: 0;
+    
+}
+
+#down {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Games {
+    color: white;
+    font: 25px bold;
+    border: 3px solid white;
+    padding: 2px 3px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #14AAAA;
+}
+
+.Games:hover{
+    background-color: #14AAAA;
+    box-shadow: 0px 5px 0px #0B7373;
+}
+
+.discription {
+    font-size: 10px;
+}
+
+#Games {
+    color: black;
+    font-size: 3.5rem;
+}
+
+
+.game-name2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: roboto;
+    text-shadow: 2.5px 2.5px 0px rgba(128, 128, 128, 0.5);
+    text-align: center;
+    color: white;
+}
+
+
+
+.menu {
+    background-color: #47D7C6;
+    margin: -47px;
+    padding: 1.5px;
+}
+
+
+.container {
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pink-div {
+    background-color: pink;
+    width: 50%;
+    height: 200px;
+   
+    
+}
+
+.white-div {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-IqDv1tOx6apIkblT-FdeMt8NQ7phT4Cz0w&s);
+    left:50%;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.tran-div {
+    position: absolute;
+    right:0;
+    width: 50%;
+    height: 200px;
+    background-color: rgba(225, 225, 225, 0.5);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+#in-container {
+    position: absolute;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 50px;
+    margin: 10px;
+    z-index:2;
+}
+
+ul {
+    color: white;
+}
+
+.typeogames {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    
+}
+
+
+
+#asterisc {
+    color: white;
+}
+
+.image-credit {
+    color: #363636;
+}
+
+
+.list {
+    margin: 0 0 0 20px;
+}
+
+fieldset {
+    width: 400px;
+    height: 500px;
+    line-height: 35px;
+    margin:0 0 5rem 0;
+    background-color: rgba(250, 218, 221, 0.5);
+}
+
+
+              --------------------------------------------------
+
+
+
+
+
+
+
