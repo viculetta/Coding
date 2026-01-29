@@ -1,0 +1,119 @@
+function setup() {
+  // XXXX No Touchy XXXX
+  createCanvas(400, 400);
+  background(37, 183, 250);
+  angleMode(DEGREES);
+  
+//BACKGROUND!!
+  //grass
+  noStroke();
+  fill(0, 179, 15);
+  rect(0, 300, 400, 100);
+  
+  //sun
+  fill(245, 245, 2);
+  ellipse(250, 35, 60, 60);
+  
+  //cloud
+  fill(400);
+  ellipse(250, 50, 50, 50);
+  ellipse(270, 25, 20, 20);
+  ellipse(290, 40, 40, 40);
+  ellipse(270, 70, 20, 20);
+  ellipse(273, 60, 20, 20);
+  ellipse(290, 60, 40, 40);
+  ellipse(310, 53, 30, 30);
+  
+  //birds
+  noFill();
+  stroke(12);
+  arc(100, 40, 20, 20, 190, -40);
+  arc(80, 40, 20, 20, 190, 0);
+  
+  
+  
+  
+  
+  
+  
+//====================================  
+
+//ME!!!!
+  
+  //Hair
+  noStroke();
+  fill(99, 67, 40);
+  rect(135, 90, 130, 180, 80);
+  
+  //Shirt
+  stroke(156, 51, 30);
+  fill(225, 105, 129);
+  rect(125, 225, 150, 300, 60);
+  
+  //neck
+  stroke(12)
+  fill(227, 178, 136);
+  rect(185, 184, 30, 40, 7);
+  
+  //collar
+  fill(227, 178, 136);
+  arc(200, 216, 30.5, 40, 0, 180);
+  
+  //head
+  fill(227, 178, 136);
+  ellipse(200, 150, 100, 110);
+  
+  //front-hair
+  noStroke();
+  fill(99, 67, 40);
+  arc(230, 100,70,50, 40, 193);//right bang
+  arc(172, 100,60,50, -20, 140);
+  
+  stroke(12)
+  //mouth
+  fill(255, 255, 255);
+  arc(200, 175, 30, 20, 0, 180);
+  
+  //buttons
+  ellipse(200, 260, 5, 5);
+  ellipse(200, 290, 5, 5);
+  ellipse(200, 320, 5, 5);
+  ellipse(200, 350, 5, 5);
+  
+  //eyelash (left)
+  fill(0);
+  arc(183, 141.5, 17, 14, 180, 0);
+  
+  //left eye
+  fill(400);
+  ellipse(183, 143, 17, 14);
+  //colored-part
+  fill(129, 182, 184);
+  ellipse(183, 143, 9, 9);
+  //pupil
+  fill(0);
+  ellipse(183, 143, 5, 6);
+  
+  //eyelash (left)
+  fill(0);
+  arc(215, 141.5, 17, 14, 180, 0);
+  
+  //right eye
+  fill(400);
+  ellipse(215, 143, 17, 14);
+  //colored-part
+  fill(129, 182, 184);
+  ellipse(215, 143, 9, 9);
+  //pupil
+  fill(0);
+  ellipse(215, 143, 5, 6);
+  
+  
+  //nose
+  fill(184, 122, 70);
+  noFill();
+  arc(200,155,10,5,270,90);
+  
+  
+  
+}
