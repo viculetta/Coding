@@ -30,7 +30,13 @@ function setup() {
   arc(100, 40, 20, 20, 190, -40);
   arc(80, 40, 20, 20, 190, 0);
   
-  
+  //tree
+  noStroke()
+  fill(120, 245, 66);
+  ellipse(70, 200, 80, 120);
+  //tree-trunk
+  fill(87, 59, 30);
+  rect(68, 200, 4, 100);
   
   
   
