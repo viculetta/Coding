@@ -36,7 +36,18 @@ function setup() {
   ellipse(70, 200, 80, 120);
   //tree-trunk
   fill(87, 59, 30);
-  rect(68, 200, 4, 100);
+  rect(68, 200, 2, 100);
+  
+  //triangle tree
+  fill(11, 79, 16);
+  triangle(117, 100, 80, 280, 150, 280);
+  //trunk
+  fill(102, 73, 22);
+  rect(115, 230, 5, 70);
+  
+
+  
+  
   
   
   
