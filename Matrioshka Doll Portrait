@@ -74,7 +74,7 @@ function draw() {
   bezierVertex(173, 111, 192, 109, 200, 114)
   endShape();
   
-  //cheeks (left)
+  //cheeks
   fill(255, 207, 196);
   ellipse(170, 175, 17.5, 17.5);
   fill(252, 190, 177);
