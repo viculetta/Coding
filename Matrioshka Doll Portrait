@@ -4,20 +4,31 @@ function setup() {
   background(37, 183, 250);
   angleMode(DEGREES);
 }
+//========================
+
+//Color Library
+
+//pretty yellow: 
+// (254, 198, 10)
+//pretty red:
+// (189, 4, 4)
+
+
 //====================
 function draw() {
   noStroke();
   //Body
-  fill(189, 54, 6);
+  fill(2, 145, 76);
   ellipse(200, 260, 170, 200); //big and round
-  ellipse(200, 160, 110, 110); //head
+  ellipse(200, 160, 110, 110); //head/face
   
-  fill(189, 54, 6)
+  fill(2, 145, 76)
   triangle(148, 170, 160, 190, 140, 200);
   triangle(252, 170, 238, 190, 258, 200);
   
-  fill(227, 76, 45);
-  stroke(209, 65, 36);
+  //pink center body
+  fill(100, 195, 25);
+  stroke(4, 176, 35);
   strokeWeight(2.5);
   ellipse(200, 260, 150, 180);
   
@@ -27,23 +38,41 @@ function draw() {
   //triangle(245, 170, 230, 190, 250, 200);
   
   //behind the face
-  fill(227, 76, 45);
+  fill(1, 169, 78);
+  stroke(3, 153, 72);
   ellipse(200, 158, 100, 98);
   
   //pedestal
   noStroke();
-  fill(201, 51, 18);
+  fill(2, 145, 76);
   quad(147, 339, 252, 340, 260, 360, 140, 360);
+  
+  
+  
+  
   
   //====================================================
   
   //face
-  fill(255, 224, 173);
+  fill(255, 212, 168);
   ellipse(200, 160, 90, 90);
   
+  //center straight
+  fill(189, 4, 4);
+  rect(188, 205, 25, 135);
+  fill(252, 167, 56);
+  ellipse(200, 220, 5, 5);
+  ellipse(200, 235, 5, 5);
+  ellipse(200, 250, 5, 5);
+  ellipse(200, 265, 5, 5);
+  ellipse(200, 280, 5, 5);
+  ellipse(200, 295, 5, 5);
+  ellipse(200, 310, 5, 5);
+  ellipse(200, 325, 5, 5);
+  
   //kistochki
-  fill(227, 76, 45);
-  stroke(209, 65, 36);
+  fill(254, 198, 10);
+  stroke(175, 21, 24);
   strokeWeight(2.5);
   
   beginShape();
@@ -94,11 +123,67 @@ function draw() {
   fill(252, 165, 146);
   ellipse(230, 175, 10, 10);
   
+  //left eye
+  fill(0);
+  ellipse(178, 147, 20, 15)
+  fill(400);
+  beginShape();
+  vertex(193, 150);
+  bezierVertex(181, 156, 175, 157, 163, 150);
+  bezierVertex(175, 133, 188, 143, 193, 150);
+  endShape();
+  fill(127, 187, 229);
+  ellipse(178, 148, 13, 13);
+  fill(0);
+  ellipse(178, 148, 8, 8);
+  
+  //right eye
+  fill(0);
+  ellipse(218.7, 146.8, 20, 14)
+  fill(400);
+  beginShape();
+  vertex(233, 150);
+  bezierVertex(224, 156, 213, 157, 206, 150);
+  bezierVertex(215, 134, 228, 143, 233, 150);
+  endShape();
+  fill(127, 187, 229);
+  ellipse(219, 148, 13, 13);
+  fill(0);
+  ellipse(219, 148, 8, 8);
   
   
+  //nose 
+  strokeWeight(1.2);
+  stroke(0);
+  noFill();
+  arc(200, 165, 6, 4, 180, 0);
   
+  //mouth
+  fill(255, 97, 97);
+  strokeWeight(0.7);
+  beginShape();
+  vertex(208, 178);
+  bezierVertex(208.5, 176.5, 207, 173.5, 203, 174);
+  bezierVertex(202, 174, 201, 174.5, 200, 175.25);
+  bezierVertex(199, 174.5, 198.5, 174, 196.5, 174);
+  bezierVertex(193.5, 174, 192, 177, 193, 179);
+  bezierVertex(196, 181, 205, 180, 210, 178);
+  endShape();
   
-  
+  beginShape();
+  vertex(208, 178);
+  bezierVertex(205, 183, 194.5, 183.5, 193, 178);
+  bezierVertex(196.87, 179.6, 202.37, 179.29, 208, 178);
+  endShape();
+  strokeWeight(1);
+  noFill();
+  bezier(187, 176, 190, 180, 210, 180, 213, 176)
   
   
 }
+
+
+
+
+
+
