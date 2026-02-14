@@ -1,9 +1,14 @@
 function setup() {
   // XXXX No Touchy XXXX
   createCanvas(400, 400);
-  background(37, 183, 250);
+  background(133, 206, 255);
   angleMode(DEGREES);
 }
+function draw() {
+  
+  
+  
+  
 //========================
 
 //Color Library
@@ -14,9 +19,41 @@ function setup() {
 // (189, 4, 4)
 
 
-//====================
-function draw() {
+//==================== Background ================
   noStroke();
+  fill(82, 58, 12);
+  rect(0, 330, 400, 70)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+//===================== doll ==================
+  noStroke();
+  
+  fill(59, 41, 8);
+  ellipse(200, 360, 170, 30);
+  
+  
   //Body
   fill(2, 145, 76);
   ellipse(200, 260, 170, 200); //big and round
@@ -53,11 +90,11 @@ function draw() {
   
   //====================================================
   
-  //face
+  //face ------------------------------------------------------
   fill(255, 212, 168);
   ellipse(200, 160, 90, 90);
   
-  //center straight
+  //center straight -------------------------------------------
   fill(189, 4, 4);
   rect(188, 205, 25, 135);
   fill(252, 167, 56);
@@ -70,7 +107,7 @@ function draw() {
   ellipse(200, 310, 5, 5);
   ellipse(200, 325, 5, 5);
   
-  //kistochki
+  //kistochki -------------------------------------------------
   fill(254, 198, 10);
   stroke(175, 21, 24);
   strokeWeight(2.5);
@@ -78,7 +115,7 @@ function draw() {
   beginShape();
   vertex(200, 204);
   bezierVertex(198, 217, 177, 225, 167, 228);
-  bezierVertex(173, 201, 192, 199, 200, 204)
+  bezierVertex(173, 201, 192, 199, 200, 204);
   endShape();
   
   beginShape();
@@ -87,7 +124,7 @@ function draw() {
   bezierVertex(222, 225, 200, 215, 200, 204);
   endShape();
   
-  //hair
+  //hair ------------------------------------------------------
   fill(99, 67, 40);
   noStroke();
   
@@ -103,7 +140,7 @@ function draw() {
   bezierVertex(173, 111, 192, 109, 200, 114)
   endShape();
   
-  //cheeks
+  //cheeks ---------------------------------------------------
   fill(255, 207, 196);
   ellipse(170, 175, 17.5, 17.5);
   fill(252, 190, 177);
@@ -123,61 +160,69 @@ function draw() {
   fill(252, 165, 146);
   ellipse(230, 175, 10, 10);
   
-  //left eye
+  //left eye -------------------
   fill(0);
-  ellipse(178, 147, 20, 15)
+  ellipse(178, 150, 20, 15)
   fill(400);
-  beginShape();
-  vertex(193, 150);
-  bezierVertex(181, 156, 175, 157, 163, 150);
-  bezierVertex(175, 133, 188, 143, 193, 150);
-  endShape();
-  fill(127, 187, 229);
-  ellipse(178, 148, 13, 13);
-  fill(0);
-  ellipse(178, 148, 8, 8);
   
-  //right eye
+  beginShape();
+  vertex(193, 153);
+  bezierVertex(181, 159, 175, 160, 163, 153);
+  bezierVertex(175, 136, 188, 146, 193, 153);
+  endShape();
+  
+  fill(127, 187, 229);
+  ellipse(178, 151, 13, 13);
   fill(0);
-  ellipse(218.7, 146.8, 20, 14)
+  ellipse(178, 151, 8, 8);
+  
+  //right eye -------------------
+  fill(0);
+  ellipse(218.7, 149.8, 20, 14)
   fill(400);
+  
   beginShape();
-  vertex(233, 150);
-  bezierVertex(224, 156, 213, 157, 206, 150);
-  bezierVertex(215, 134, 228, 143, 233, 150);
+  vertex(233, 153);
+  bezierVertex(224, 159, 213, 160, 206, 153);
+  bezierVertex(215, 137, 228, 146, 233, 153);
   endShape();
+  
   fill(127, 187, 229);
-  ellipse(219, 148, 13, 13);
+  ellipse(219, 151.5, 13, 13);
   fill(0);
-  ellipse(219, 148, 8, 8);
+  ellipse(219, 151.5, 8, 8);
   
   
-  //nose 
+  //nose -----------------------------------------------------
   strokeWeight(1.2);
   stroke(0);
   noFill();
-  arc(200, 165, 6, 4, 180, 0);
+  arc(200, 166, 6, 4, 180, 0);
   
-  //mouth
+  //mouth ----------------------------------------------------
+  
+  //upper lip
   fill(255, 97, 97);
   strokeWeight(0.7);
-  beginShape();
-  vertex(208, 178);
-  bezierVertex(208.5, 176.5, 207, 173.5, 203, 174);
-  bezierVertex(202, 174, 201, 174.5, 200, 175.25);
-  bezierVertex(199, 174.5, 198.5, 174, 196.5, 174);
-  bezierVertex(193.5, 174, 192, 177, 193, 179);
-  bezierVertex(196, 181, 205, 180, 210, 178);
-  endShape();
   
   beginShape();
-  vertex(208, 178);
-  bezierVertex(205, 183, 194.5, 183.5, 193, 178);
-  bezierVertex(196.87, 179.6, 202.37, 179.29, 208, 178);
+  vertex(208, 183);
+  bezierVertex(208.5, 181.5, 207, 178.5, 203, 179);
+  bezierVertex(202, 179, 201, 179.5, 200, 180.25);
+  bezierVertex(199, 179.5, 198.5, 179, 196.5, 179);
+  bezierVertex(193.5, 179, 192, 182, 193, 184);
+  bezierVertex(196, 186, 205, 185, 210, 183);
+  endShape();
+  
+  //lower lip
+  beginShape();
+  vertex(208, 183);
+  bezierVertex(205, 188, 194.5, 188.5, 193, 183);
+  bezierVertex(196.87, 184.6, 202.37, 184.29, 208, 183);
   endShape();
   strokeWeight(1);
   noFill();
-  bezier(187, 176, 190, 180, 210, 180, 213, 176)
+  bezier(187, 181, 190, 185, 210, 185, 213, 181)
   
   
 }
