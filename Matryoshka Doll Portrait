@@ -32,27 +32,27 @@ function draw() {
   //actual shape:
   fill(254, 249, 235);
   beginShape();
-  vertex(30, 330);
-  bezierVertex(40, 200, 40, 170, 30, 100);
-  bezierVertex(30, 100, 90, 100, 90, 100);
-  bezierVertex(80, 170, 80, 200, 90, 330);
-  bezierVertex(90, 330, 30, 330, 30, 330);
+  vertex(35, 330);
+  bezierVertex(45, 200, 45, 170, 35, 100);
+  bezierVertex(30, 100, 90, 100, 85, 100);
+  bezierVertex(75, 170, 75, 200, 85, 330);
+  bezierVertex(90, 330, 30, 330, 35, 330);
   endShape();
   
-  fill(196, 164, 132);
-  ellipse(60, 100, 90, 10);
-  fill(111, 61, 27);
-  rect(20, 87, 80, 10);
-  fill(236, 212, 166);
-  ellipse(60, 85, 100, 10);
-  //fill();
-  quad(20, 71, 100, 71, 95, 81, 25, 81);
-  //fill();
-  quad(20, 71, 40, 60, 80, 60, 100, 71);
-  fill(20, 27, 33);
-  triangle(60, 10, 66, 60, 53, 60);
+  fill(187, 157, 67);
+  ellipse(60, 100, 90, 10); // bottom
+  fill(32, 35, 33);
+  rect(20, 87, 80, 10); //next
+  fill(107, 91, 70);
+  ellipse(60, 85, 100, 10); // middle
+  fill(164, 131, 58);
+  quad(20, 71, 100, 71, 95, 81, 25, 81); // above
+  fill(198, 178, 137);
+  quad(20, 71, 40, 60, 80, 60, 100, 71); // top
+  fill(127, 128, 119);
+  triangle(60, 10, 66, 60, 53, 60); // tower
   fill(232, 138, 136);
-  ellipse(60, 10, 6, 6);
+  ellipse(60, 10, 6, 6); // lightbulb at the top
   
   //Canadian Parliament Building ------------------------------
   fill(246, 226, 183);
@@ -103,6 +103,9 @@ function draw() {
   rect(350, 25, 5, 10);
   triangle(345, 27, 348, 30, 342, 30);
   rect(344.5, 27, 1, 6);
+  stroke(189, 4, 4);
+  strokeWeight(01);
+  line(343, 28, 347, 28);
   
   
   
@@ -401,9 +404,6 @@ function draw() {
   
   bezier(160, 260, 115, 270, 155, 226, 160, 260);
   bezier(163, 265, 130, 300, 140, 260, 163, 265);
-  
-  
-  
   
   
 }
