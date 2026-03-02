@@ -240,14 +240,11 @@ a {
     color: white;
 }
 
-
-
 .menu {
     background-color: #47D7C6;
     margin: -47px;
     padding: 1.5px;
 }
-
 
 .container {
     display: flex;
@@ -334,8 +331,6 @@ fieldset {
     margin:0 0 5rem 0;
     background-color: rgba(250, 218, 221, 0.5);
 }
-
-
               --------------------------------------------------
 
 
